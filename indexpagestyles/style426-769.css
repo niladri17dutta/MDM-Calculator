@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f0f0c9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.header {
+    background-color: #124e78;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+}
+
+.header h1 {
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+.classsselector {
+    background-color: #d65d20;
+    text-align: center;
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50vh;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px #e38f65, -10px -10px 15px #e38f65, 10px -10px 15px #e38f65, -10px 10px 15px #e38f65;
+}
+
+.classsselector p1{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#option {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.classbtns button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #f2bb05;
+    border: none;
+    border-radius: 20px;
+    height: 8vh;
+    width: 27vw;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.classbtns button:hover {
+    cursor: pointer;
+}
+
+.classbtns button a:hover::before{
+    width: 100%;
+}
+
+.footer {
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+    background-color: #124e78;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    color: #ffffff;
+    position: end
+}
