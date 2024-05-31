@@ -8,14 +8,141 @@
     <link rel="stylesheet" media="screen and (min-width: 769px)" href="class6-8styles/styleclass6-8above769.css">
 </head>
 <body>
-    <div class="header">
-        <h1>MDM Calculator</h1>
-    </div>
+    <div class="all">
 
+        <div class="header">
+            <h1>MDM Calculator ( VI - VIII )</h1>
+        </div>
     
+        <div class="studentandday">
+            <div class="days">
+                Select Day
+                <select class="allday">
+                    <option>Monday</option>
+                    <option>Tuesday</option>
+                    <option>Wednesday</option>
+                    <option>Thursday</option>
+                    <option>Friday</option>
+                    <option>Saturday</option>
+                </select>
+            </div>
+            <div class="stud">
+                Enter No. Of Students:
+                <input type="number" id="studen" min="1" max="1000">
+            </div>
+    
+        </div>
 
-    <div class="footer">
-        <p>Made by Niladri Dutta @ 2024</p>
+        <button class="cal">Calculate</button>
+        
+        <div class="output">
+            <!-- <input type="text" placeholder="0" id="inputbox"> -->
+            <div class="l-page">
+
+                <div class="rice">
+                    RICE
+                    <div class="detail">
+                        <div class="quantity">
+                            Quantity
+                            <input type="text" placeholder="0" id="quanrice">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dal">
+                    DAL
+                    <div class="detail">
+                        <div class="quantity">
+                            Quantity
+                            <input type="text" placeholder="0" id="quandal">
+                        </div>
+                        <div class="price">
+                            Price
+                            <input type="text" placeholder="0" id="pricdal">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="masalaandsalt">
+                    MASALA/SALT
+                    <div class="detail">
+                        <div class="quantity">
+                            Quantity
+                            <input type="text" placeholder="- X - X - X -" id="quansalt">
+                        </div>
+                        <div class="price">
+                            Price
+                            <input type="text" placeholder="0" id="pricsalt">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sabji">
+                    SABJI
+                    <div class="detail">
+                        <div class="quantity">
+                            Quantity
+                            <input type="text" placeholder="0" id="quansabji">
+                        </div>
+                        <div class="price">
+                            Price
+                            <input type="text" placeholder="0" id="pricsabji">
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+
+            <div class="r-page">
+
+                <div class="oil">
+                    OIL
+                    <div class="detail">
+                        <div class="quantity">
+                            Quantity
+                            <input type="text" placeholder="0" id="quanoil">
+                        </div>
+                        <div class="price">
+                            Price
+                            <input type="text" placeholder="0" id="pricoil">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jalawan">
+                    JALAWAN
+                    <div class="detail">
+                        <div class="quantity">
+                            Quantity
+                            <input type="text" placeholder="0" id="quanjalawan">
+                        </div>
+                        <div class="price">
+                            Price
+                            <input type="text" placeholder="0" id="pricjalawan">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="total">
+                    <div class="texta">
+                        TOTAL AMOUNT
+                    </div>
+                    <div class="showamt">
+                        <input type="text" placeholder="0" id="totamt">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        
+    
+        <div class="footer">
+            Goto <u><a href="index.html">HOME</a></u>
+            <p>© Niladri Dutta @ 2024</p>
+        </div>
+
     </div>
 </body>
 </html>
