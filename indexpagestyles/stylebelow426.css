@@ -28,6 +28,11 @@ body {
     color: #ffffff;
 }
 
+.header h1 a {
+    text-decoration:none;
+    color: #ffffff;
+}
+
 .classsselector {
     background-color: #d65d20;
     text-align: center;

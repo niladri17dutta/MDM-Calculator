@@ -40,6 +40,11 @@ body {
     color: #ffffff;
 }
 
+.header h1 a {
+    text-decoration:none;
+    color: #ffffff;
+}
+
 /* Input ID'S */
 
 .studentandday{
