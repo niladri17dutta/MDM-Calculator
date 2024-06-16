@@ -1,0 +1,1 @@
+console.log("This Js is for calculation of MDM of class VI-VIII")

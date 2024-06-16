@@ -17,7 +17,7 @@
         <div class="studentandday">
             <div class="days">
                 Select Day
-                <select class="allday">
+                <select id="userInputDay" class="allday">
                     <option>Monday</option>
                     <option>Tuesday</option>
                     <option>Wednesday</option>
@@ -28,12 +28,12 @@
             </div>
             <div class="stud">
                 Enter No. Of Students:
-                <input type="number" id="studen" min="1" max="1000">
+                <input type="number" id="userInputStuden" min="1" max="1000">
             </div>
     
         </div>
 
-        <button class="cal">Calculate</button>
+        <button onclick="getInputValues()" id="calculateButton" class="cal">Calculate</button>
         
         <div class="output">
             <!-- <input type="text" placeholder="0" id="inputbox"> -->
@@ -144,5 +144,8 @@
         </div>
 
     </div>
+
+    <script src="script1-5.js"></script>
+
 </body>
 </html>
