@@ -1,4 +1,4 @@
-console.log("This Js is for calculation of MDM of class I-V")
+console.log("This Js is for calculation of MDM of class VI-VIII")
 
 
 document.getElementById('calculateButton').addEventListener('click', function() {
