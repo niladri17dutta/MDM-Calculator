@@ -42,7 +42,7 @@ body {
     align-items: center;
     justify-content: space-evenly;
     height: 50vh;
-    width: 80%;
+    width: 75%;
     border-radius: 20px;
     box-shadow: 10px 10px 15px #e38f65, -10px -10px 15px #e38f65, 10px -10px 15px #e38f65, -10px 10px 15px #e38f65;
 }
