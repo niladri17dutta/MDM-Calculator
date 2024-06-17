@@ -27,12 +27,16 @@ body {
 .header {
     background-color: #124e78;
     width: 100%;
+    height: 87.2px;
     text-align: center;
+    display: flex;
+    align-items: center;
     padding: 1rem;
 }
 
 .header h1 {
-    font-size: 3rem;
+    font-size: 2rem;
+    align-items: center;
     color: #ffffff;
 }
 
