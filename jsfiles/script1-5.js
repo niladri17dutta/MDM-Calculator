@@ -46,9 +46,9 @@ document.getElementById('calculateButton').addEventListener('click', function() 
 
   else if (valueday==='Tuesday'){
 
-    let dalqt = ((parseInt(valuestudent) * 20) / 1000);
+    let dalqt = ((parseInt(valuestudent) * 13) / 1000);
     quandal.value = dalqt.toFixed(3);
-    let dalpr = dalqt * 90;
+    let dalpr = dalqt * 149;
     pricdal.value = dalpr.toFixed(2);
 
     let sabjiqt = ((parseInt(valuestudent) * 50) / 1000);
@@ -143,12 +143,12 @@ document.getElementById('calculateButton').addEventListener('click', function() 
 
     let dalqt = ((parseInt(valuestudent) * 20) / 1000);
     quandal.value = dalqt.toFixed(3);
-    let dalpr = dalqt * 90;
+    let dalpr = dalqt * 80;
     pricdal.value = dalpr.toFixed(2);
 
-    let sabjiqt = ((parseInt(valuestudent) * 50) / 1000);
+    let sabjiqt = ((parseInt(valuestudent) * 35) / 1000);
     quansabji.value = sabjiqt.toFixed(3);
-    let sabjipr = sabjiqt * 22;
+    let sabjipr = sabjiqt * 30;
     pricsabji.value = sabjipr.toFixed(2);
 
     let oilqt = ((parseInt(valuestudent) * 5) / 1000);
