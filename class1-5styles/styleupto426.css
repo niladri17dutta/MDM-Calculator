@@ -5,6 +5,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    height: 93.5vh;
+    width: 100vw;
 }
 
 body {
@@ -48,13 +50,13 @@ body {
 
 /* Input ID'S */
 
-/*.studentandday{
+.studentandday{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     height: 120px;
-    width: 850px;
+    width: 80vw;
     background-color: #f2bb05;
     padding: 10px 0px 10px 0px;
     border: none;
