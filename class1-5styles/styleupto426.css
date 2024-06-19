@@ -5,8 +5,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    height: 93.5vh;
-    width: 100vw;
 }
 
 body {
@@ -109,7 +107,7 @@ body {
 
 /* Calculate Button */
 
-.cal {
+/* .cal {
     height: 50px;
     width: 200px;
     background-color: #d74e09;
@@ -149,7 +147,7 @@ body {
 
 /* All Outputs */
 
-.output {
+/* .output {
     background-color: #f2bb05;
     height: 40vh;
     width: 98vw;
@@ -159,11 +157,11 @@ body {
     align-items: center;
     border: none;
     border-radius: 10px;
-}
+} */
 
 /* Left Page Of Book */
 
-.l-page {
+/* .l-page {
     width: 98vw;
     display: flex;
     flex-direction: row;
@@ -207,7 +205,7 @@ body {
 
 /* Right Page Of Book */
 
-.r-page {
+/* .r-page {
     width: 98vw;
     display: flex;
     flex-direction: row;
@@ -255,7 +253,7 @@ body {
     font-size: 1.1rem;
     font-weight: bold;
     text-align: center;
-}
+} */
 
 
 /* FOOTER */
