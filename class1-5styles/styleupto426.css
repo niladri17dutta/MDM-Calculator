@@ -51,10 +51,10 @@ body {
 .studentandday{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-betwen;
     align-items: center;
-    height: 120px;
-    width: 80vw;
+    height: 150px;
+    width: 90vw;
     background-color: #f2bb05;
     padding: 10px 0px 10px 0px;
     border: none;
@@ -62,9 +62,10 @@ body {
 }
 
 .days {
-    height: 150px;
-    width: 400px;
-    font-size: 2rem;
+    height: ;
+    background-color: red;
+    width: 45vw;
+    font-size: 1.5rem;
     font-weight: bold;
     display: flex;
     flex-direction: column;
@@ -84,8 +85,9 @@ body {
 }
 
 .stud {
-    height: 150px;
-    width: 400px;
+    background-color: #124e78;
+    height: ;
+    width: 45vw;
     font-size: 1.5rem;
     font-weight: bold;
     display: flex;
@@ -107,7 +109,7 @@ body {
 
 /* Calculate Button */
 
-/* .cal {
+.cal {
     height: 50px;
     width: 200px;
     background-color: #d74e09;
