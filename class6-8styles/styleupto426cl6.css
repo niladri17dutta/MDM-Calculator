@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f0f0c9;
+    height: 93.5vh;
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 93.5vh;
+    width: 100vw;
+}
+
+/* HEADER */
+
+.header {
+    background-color: #124e78;
+    width: 100%;
+    height: 87.2px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.header h1 {
+    font-size: 2.2rem;
+    align-items: center;
+    color: #ffffff;
+}
+
+.header h1 a {
+    text-decoration:none;
+    color: #ffffff;
+}
+
+/* Input ID'S */
+
+.studentandday{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-betwen;
+    align-items: center;
+    height: 150px;
+    width: 90vw;
+    background-color: #f2bb05;
+    padding: 30px 0px 0px 0px;
+    border: none;
+    border-radius: 10px;
+}
+
+.days {
+    width: 45vw;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.allday {
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 4px;
+    margin: 5px;
+    border: none;
+    text-align: center;
+}
+
+.stud {
+    width: 45vw;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 26.9px;
+}
+
+#userInputStuden {
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 4px;
+    margin: 5px;
+    border: none;
+    text-align: center;
+}
+
+/* Calculate Button */
+
+.cal {
+    height: 50px;
+    width: 200px;
+    background-color: #d74e09;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    position: relative;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.cal:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.cal:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+
+/* All Outputs */
+
+.output {
+    background-color: #f2bb05;
+    height: 40vh;
+    width: 98vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+}
+
+/* Left Page Of Book */
+
+.l-page {
+    width: 98vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rice, .dal, .masalaandsalt, .sabji {
+    /* background: #d74e09; */
+    height: 120%;
+    width: 20%;
+    border-style: solid;
+    border-color: red green blue purple;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+#quanrice, #quandal, #quansalt, #quansabji,
+#pricdal, #pricsalt, #pricsabji {
+    height: 25px;
+    width: 100px;
+    text-align: center;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.price {
+    margin-top: 5px;
+}
+
+
+
+/* Right Page Of Book */
+
+.r-page {
+    width: 98vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.oil, .jalawan, .total {
+    height: 120%;
+    width: 20%;
+    border-style: solid;
+    border-color: red green blue purple;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+#quanoil, #quanjalawan,
+#pricoil, #pricjalawan {
+    height: 25px;
+    width: 100px;
+    text-align: center;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.price {
+    margin-top: 4px;
+}
+
+#totamt {
+    height: 40px;
+    width: 140px;
+    text-align: center;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* FOOTER */
+
+.footer {
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+    background-color: #124e78;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    color: #ffffff;
+}
+
+.footer a {
+    color: #ffffff;
+}
