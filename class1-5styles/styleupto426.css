@@ -258,14 +258,14 @@ body {
 
 /* FOOTER */
 
-/*.footer {
+.footer {
     font-family: "Kalam", cursive;
     font-weight: 700;
     font-style: normal;
     background-color: #124e78;
     width: 100%;
     text-align: center;
-    padding: 1rem;
+    padding: 5px;
     color: #ffffff;
 }
 
