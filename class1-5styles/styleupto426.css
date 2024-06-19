@@ -109,7 +109,7 @@ body {
 
 /* Calculate Button */
 
-/* .cal {
+.cal {
     height: 50px;
     width: 200px;
     background-color: #d74e09;
@@ -149,7 +149,7 @@ body {
 
 /* All Outputs */
 
-/*.output {
+.output {
     background-color: #f2bb05;
     height: 40vh;
     width: 98vw;
@@ -163,7 +163,7 @@ body {
 
 /* Left Page Of Book */
 
-/*.l-page {
+.l-page {
     width: 98vw;
     display: flex;
     flex-direction: row;
@@ -172,7 +172,7 @@ body {
 }
 
 .rice, .dal, .masalaandsalt, .sabji {
-    /* background: #d74e09;
+    background: #d74e09;
     height: 120%;
     width: 20%;
     border-style: solid;
@@ -207,7 +207,7 @@ body {
 
 /* Right Page Of Book */
 
-/*.r-page {
+.r-page {
     width: 98vw;
     display: flex;
     flex-direction: row;
