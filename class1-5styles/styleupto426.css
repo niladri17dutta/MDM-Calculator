@@ -116,7 +116,6 @@ body {
     font-weight: bold;
     border: none;
     border-radius: 50px;
-
     position: relative;
     text-align: center;
     transition-duration: 0.4s;
@@ -147,7 +146,7 @@ body {
 
 /* All Outputs */
 
-/* .output {
+.output {
     background-color: #f2bb05;
     height: 40vh;
     width: 98vw;
@@ -157,11 +156,11 @@ body {
     align-items: center;
     border: none;
     border-radius: 10px;
-} */
+}
 
 /* Left Page Of Book */
 
-/* .l-page {
+.l-page {
     width: 98vw;
     display: flex;
     flex-direction: row;
@@ -170,7 +169,7 @@ body {
 }
 
 .rice, .dal, .masalaandsalt, .sabji {
-    background: #d74e09;
+    /* background: #d74e09; */
     height: 120%;
     width: 20%;
     border-style: solid;
@@ -205,7 +204,7 @@ body {
 
 /* Right Page Of Book */
 
-/* .r-page {
+.r-page {
     width: 98vw;
     display: flex;
     flex-direction: row;
@@ -253,7 +252,7 @@ body {
     font-size: 1.1rem;
     font-weight: bold;
     text-align: center;
-} */
+}
 
 
 /* FOOTER */
