@@ -52,7 +52,7 @@ body {
 .studentandday{
     display: flex;
     flex-direction: row;
-    justify-content: space-betwen;
+    justify-content: space-between;
     align-items: center;
     height: 150px;
     width: 90vw;
