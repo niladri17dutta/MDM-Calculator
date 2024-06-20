@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
 
+
 *{
     margin: 0;
     padding: 0;
@@ -74,10 +75,6 @@ body {
 
 .classbtns button:hover {
     cursor: pointer;
-}
-
-.classbtns button a:hover::before{
-    width: 100%;
 }
 
 .footer {

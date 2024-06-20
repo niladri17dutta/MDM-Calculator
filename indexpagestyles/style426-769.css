@@ -76,10 +76,6 @@ body {
     cursor: pointer;
 }
 
-.classbtns button a:hover::before{
-    width: 100%;
-}
-
 .footer {
     font-family: "Kalam", cursive;
     font-weight: 700;
