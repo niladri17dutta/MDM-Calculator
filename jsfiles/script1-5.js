@@ -178,7 +178,7 @@ document.getElementById('calculateButton').addEventListener('click', function() 
     let dalpr = dalqt * 90;
     pricdal.value = dalpr.toFixed(2);
 
-    let sabjiqt = ((parseInt(valuestuden) * 50) / 1000);
+    let sabjiqt = ((parseInt(valuestudent) * 50) / 1000);
     quansabji.value = sabjiqt.toFixed(3);
     let sabjipr = sabjiqt * 22;
     pricsabji.value = sabjipr.toFixed(2);
@@ -200,6 +200,7 @@ document.getElementById('calculateButton').addEventListener('click', function() 
     let saltpr = totalamt - (dalpr+sabjipr+oilpr+jalawanpr);
     pricsalt.value = saltpr.toFixed(2);
     // No Change OVER
+
   }
   else {
     alert('Enter Correct Input Values!');
