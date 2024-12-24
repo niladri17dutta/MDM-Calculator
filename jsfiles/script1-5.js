@@ -16,26 +16,26 @@ document.getElementById('calculateButton').addEventListener('click', function() 
 
     let dalqt = ((parseInt(valuestudent) * 20) / 1000);
     quandal.value = dalqt.toFixed(3);
-    let dalpr = dalqt * 90;
+    let dalpr = dalqt * 100;
     pricdal.value = dalpr.toFixed(2);
 
     let sabjiqt = ((parseInt(valuestudent) * 50) / 1000);
     quansabji.value = sabjiqt.toFixed(3);
-    let sabjipr = sabjiqt * 22;
+    let sabjipr = sabjiqt * 30;
     pricsabji.value = sabjipr.toFixed(2);
 
     let oilqt = ((parseInt(valuestudent) * 5) / 1000);
     quanoil.value = oilqt.toFixed(3);
-    let oilpr = oilqt * 180;
+    let oilpr = oilqt * 160;
     pricoil.value = oilpr.toFixed(2);
 
     let jalawanqt = ((parseInt(valuestudent) * 100) / 1000);
     quanjalawan.value = jalawanqt.toFixed(3);
-    let jalawanpr = jalawanqt* 12;
+    let jalawanpr = jalawanqt* 15;
     pricjalawan.value = jalawanpr.toFixed(2);
 
     // No Change START they will remain constant
-    let totalamt  = parseInt(valuestudent)*5.45;
+    let totalamt  = parseInt(valuestudent)*6.19;
     totamt.value = totalamt.toFixed(2);
 
     let saltpr = totalamt - (dalpr+sabjipr+oilpr+jalawanpr);
@@ -48,26 +48,26 @@ document.getElementById('calculateButton').addEventListener('click', function() 
 
     let dalqt = ((parseInt(valuestudent) * 13) / 1000);
     quandal.value = dalqt.toFixed(3);
-    let dalpr = dalqt * 149;
+    let dalpr = dalqt * 150;
     pricdal.value = dalpr.toFixed(2);
 
     let sabjiqt = ((parseInt(valuestudent) * 50) / 1000);
     quansabji.value = sabjiqt.toFixed(3);
-    let sabjipr = sabjiqt * 22;
+    let sabjipr = sabjiqt * 30;
     pricsabji.value = sabjipr.toFixed(2);
 
     let oilqt = ((parseInt(valuestudent) * 5) / 1000);
     quanoil.value = oilqt.toFixed(3);
-    let oilpr = oilqt * 180;
+    let oilpr = oilqt * 160;
     pricoil.value = oilpr.toFixed(2);
 
     let jalawanqt = ((parseInt(valuestudent) * 100) / 1000);
     quanjalawan.value = jalawanqt.toFixed(3);
-    let jalawanpr = jalawanqt* 12;
+    let jalawanpr = jalawanqt* 15;
     pricjalawan.value = jalawanpr.toFixed(2);
 
     // No Change START they will remain constant
-    let totalamt  = parseInt(valuestudent)*5.45;
+    let totalamt  = parseInt(valuestudent)*6.19;
     totamt.value = totalamt.toFixed(2);
 
     let saltpr = totalamt - (dalpr+sabjipr+oilpr+jalawanpr);
@@ -80,26 +80,26 @@ document.getElementById('calculateButton').addEventListener('click', function() 
 
     let dalqt = ((parseInt(valuestudent) * 20) / 1000);
     quandal.value = dalqt.toFixed(3);
-    let dalpr = dalqt * 90;
+    let dalpr = dalqt * 100;
     pricdal.value = dalpr.toFixed(2);
 
     let sabjiqt = ((parseInt(valuestudent) * 50) / 1000);
     quansabji.value = sabjiqt.toFixed(3);
-    let sabjipr = sabjiqt * 22;
+    let sabjipr = sabjiqt * 30;
     pricsabji.value = sabjipr.toFixed(2);
 
     let oilqt = ((parseInt(valuestudent) * 5) / 1000);
     quanoil.value = oilqt.toFixed(3);
-    let oilpr = oilqt * 180;
+    let oilpr = oilqt * 160;
     pricoil.value = oilpr.toFixed(2);
 
     let jalawanqt = ((parseInt(valuestudent) * 100) / 1000);
     quanjalawan.value = jalawanqt.toFixed(3);
-    let jalawanpr = jalawanqt* 12;
+    let jalawanpr = jalawanqt* 15;
     pricjalawan.value = jalawanpr.toFixed(2);
 
     // No Change START they will remain constant
-    let totalamt  = parseInt(valuestudent)*5.45;
+    let totalamt  = parseInt(valuestudent)*6.19;
     totamt.value = totalamt.toFixed(2);
 
     let saltpr = totalamt - (dalpr+sabjipr+oilpr+jalawanpr);
@@ -112,26 +112,26 @@ document.getElementById('calculateButton').addEventListener('click', function() 
 
     let dalqt = ((parseInt(valuestudent) * 20) / 1000);
     quandal.value = dalqt.toFixed(3);
-    let dalpr = dalqt * 90;
+    let dalpr = dalqt * 100;
     pricdal.value = dalpr.toFixed(2);
 
     let sabjiqt = ((parseInt(valuestudent) * 50) / 1000);
     quansabji.value = sabjiqt.toFixed(3);
-    let sabjipr = sabjiqt * 22;
+    let sabjipr = sabjiqt * 30;
     pricsabji.value = sabjipr.toFixed(2);
 
     let oilqt = ((parseInt(valuestudent) * 5) / 1000);
     quanoil.value = oilqt.toFixed(3);
-    let oilpr = oilqt * 180;
+    let oilpr = oilqt * 160;
     pricoil.value = oilpr.toFixed(2);
 
     let jalawanqt = ((parseInt(valuestudent) * 100) / 1000);
     quanjalawan.value = jalawanqt.toFixed(3);
-    let jalawanpr = jalawanqt* 12;
+    let jalawanpr = jalawanqt* 15;
     pricjalawan.value = jalawanpr.toFixed(2);
 
     // No Change START they will remain constant
-    let totalamt  = parseInt(valuestudent)*5.45;
+    let totalamt  = parseInt(valuestudent)*6.19;
     totamt.value = totalamt.toFixed(2);
     let saltpr = totalamt - (dalpr+sabjipr+oilpr+jalawanpr);
     pricsalt.value = saltpr.toFixed(2);
@@ -143,7 +143,7 @@ document.getElementById('calculateButton').addEventListener('click', function() 
 
     let dalqt = ((parseInt(valuestudent) * 20) / 1000);
     quandal.value = dalqt.toFixed(3);
-    let dalpr = dalqt * 80;
+    let dalpr = dalqt * 90;
     pricdal.value = dalpr.toFixed(2);
 
     let sabjiqt = ((parseInt(valuestudent) * 35) / 1000);
@@ -153,16 +153,16 @@ document.getElementById('calculateButton').addEventListener('click', function() 
 
     let oilqt = ((parseInt(valuestudent) * 5) / 1000);
     quanoil.value = oilqt.toFixed(3);
-    let oilpr = oilqt * 180;
+    let oilpr = oilqt * 160;
     pricoil.value = oilpr.toFixed(2);
 
     let jalawanqt = ((parseInt(valuestudent) * 100) / 1000);
     quanjalawan.value = jalawanqt.toFixed(3);
-    let jalawanpr = jalawanqt* 12;
+    let jalawanpr = jalawanqt* 15;
     pricjalawan.value = jalawanpr.toFixed(2);
 
     // No Change START they will remain constant
-    let totalamt  = parseInt(valuestudent)*5.45;
+    let totalamt  = parseInt(valuestudent)*6.19;
     totamt.value = totalamt.toFixed(2);
 
     let saltpr = totalamt - (dalpr+sabjipr+oilpr+jalawanpr);
@@ -175,26 +175,26 @@ document.getElementById('calculateButton').addEventListener('click', function() 
 
     let dalqt = ((parseInt(valuestudent) * 20) / 1000);
     quandal.value = dalqt.toFixed(3);
-    let dalpr = dalqt * 90;
+    let dalpr = dalqt * 100;
     pricdal.value = dalpr.toFixed(2);
 
     let sabjiqt = ((parseInt(valuestudent) * 50) / 1000);
     quansabji.value = sabjiqt.toFixed(3);
-    let sabjipr = sabjiqt * 22;
+    let sabjipr = sabjiqt * 30;
     pricsabji.value = sabjipr.toFixed(2);
 
     let oilqt = ((parseInt(valuestudent) * 5) / 1000);
     quanoil.value = oilqt.toFixed(3);
-    let oilpr = oilqt * 180;
+    let oilpr = oilqt * 160;
     pricoil.value = oilpr.toFixed(2);
 
     let jalawanqt = ((parseInt(valuestudent) * 100) / 1000);
     quanjalawan.value = jalawanqt.toFixed(3);
-    let jalawanpr = jalawanqt* 12;
+    let jalawanpr = jalawanqt* 15;
     pricjalawan.value = jalawanpr.toFixed(2);
 
     // No Change START they will remain constant
-    let totalamt  = parseInt(valuestudent)*5.45;
+    let totalamt  = parseInt(valuestudent)*6.19;
     totamt.value = totalamt.toFixed(2);
 
     let saltpr = totalamt - (dalpr+sabjipr+oilpr+jalawanpr);
